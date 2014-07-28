@@ -4,8 +4,11 @@ import org.kie.internal.assembler.KieAssemblerService;
 import org.kie.internal.assembler.KieAssemblers;
 import org.kie.internal.runtime.KieRuntimeService;
 import org.kie.internal.runtime.KieRuntimes;
+<<<<<<< HEAD
 import org.kie.internal.runtime.beliefs.KieBeliefService;
 import org.kie.internal.runtime.beliefs.KieBeliefs;
+=======
+>>>>>>> 6dc89635b370aee38079b3f21e686da627100893
 import org.kie.internal.utils.ServiceRegistryImpl.ReturnInstance;
 import org.kie.internal.weaver.KieWeaverService;
 import org.kie.internal.weaver.KieWeavers;
@@ -95,7 +98,10 @@ public class ServiceDiscovery {
 
         processKieWeavers(map, serviceRegistry);
 
+<<<<<<< HEAD
         processKieBeliefs(map, serviceRegistry);
+=======
+>>>>>>> 6dc89635b370aee38079b3f21e686da627100893
 
         processRuntimes(map, serviceRegistry);
     }

@@ -42,8 +42,11 @@ import org.kie.internal.assembler.KieAssemblersImpl;
 import org.kie.internal.process.CorrelationKeyFactory;
 import org.kie.internal.runtime.KieRuntimes;
 import org.kie.internal.runtime.KieRuntimesImpl;
+<<<<<<< HEAD
 import org.kie.internal.runtime.beliefs.KieBeliefs;
 import org.kie.internal.runtime.beliefs.KieBeliefsImpl;
+=======
+>>>>>>> 6dc89635b370aee38079b3f21e686da627100893
 import org.kie.internal.weaver.KieWeavers;
 import org.kie.internal.weaver.KieWeaversImpl;
 import org.slf4j.Logger;
@@ -221,6 +224,7 @@ public class ServiceRegistryImpl
                              new ReturnInstance( new KieWeaversImpl()) );
         defaultServices.put( KieRuntimes.class.getName(),
                              new ReturnInstance( new KieRuntimesImpl()) );
+
         defaultServices.put( KieBeliefs.class.getName(),
                              new ReturnInstance( new KieBeliefsImpl()) );
 
