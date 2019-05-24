@@ -163,7 +163,7 @@ public class ResourceType
     public static final ResourceType PMML = addResourceTypeToRegistry("PMML",
                                                                       "Predictive Model Markup Language",
                                                                       "src/main/resources",
-                                                                      "pmml");
+                                                                      "kiepmml");
 
     /** DESCR */
     public static final ResourceType DESCR = addResourceTypeToRegistry("DESCR",
